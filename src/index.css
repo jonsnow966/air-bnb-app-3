@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-xs: 500px;
+  --breakpoint-sm: 770px;
+  --breakpoint-md: 870px;
+  --breakpoint-lg: 990px;
+  --breakpoint-xl: 1200px;
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}

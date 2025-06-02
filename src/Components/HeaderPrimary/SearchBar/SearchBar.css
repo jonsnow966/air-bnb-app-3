@@ -1,0 +1,11 @@
+#search_bar:hover ~ #first {
+    display: none;
+}
+
+#check_in_btn:hover ~ #second{
+    display: none;
+}
+
+#check_out_btn:hover ~#third{
+    display: none;
+}
