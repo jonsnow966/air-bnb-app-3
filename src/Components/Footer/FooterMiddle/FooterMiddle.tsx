@@ -1,7 +1,10 @@
 function FooterMiddle() {
   return (
-    <div className="w-full h-fit relative text-[12px] md:text-[16px] top-0 pl-2 pt-20 pb-20 flex gap-x-[15px]">
-      <div className="flex flex-col gap-4 w-[30%] text-black">
+    <div className="w-full h-fit relative text-nowrap text-[18px] sm:text-[16px]
+    top-0 pl-2 pt-10 pb-10 sm:pt-15 sm:pb-20 
+    flex flex-col sm:flex-row gap-[20px] ">
+      
+      <div className="flex flex-col gap-4 w-full pt-3 sm:w-[30%] text-black border-gray-300 border-t-[1px] sm:border-none">
         <p className="font-medium hover:cursor-text">Support</p>
 
         <p className="hover:underline hover:underline-offset-1 cursor-pointer">Help Center</p>
@@ -14,10 +17,10 @@ function FooterMiddle() {
 
         <p className="hover:underline hover:underline-offset-1 cursor-pointer">Cancellation options</p>
 
-        <p className="hover:underline hover:underline-offset-1 cursor-pointer">Report neighborhood concern</p>
+        <p className="hover:underline hover:underline-offset-1 cursor-pointer text-wrap">Report neighborhood concern</p>
       </div>
 
-      <div className="flex flex-col gap-4 w-[30%] text-black">
+      <div className="flex flex-col gap-4 w-full pt-3 sm:w-[30%] text-black border-gray-300 border-t-[1px] sm:border-none">
         <p className="font-medium hover:cursor-text">Hosting</p>
 
         <p className="hover:underline hover:underline-offset-1 cursor-pointer">Airbnb your home</p>
@@ -37,11 +40,11 @@ function FooterMiddle() {
         <p className="hover:underline hover:underline-lloffset-1 cursor-pointer">Find a co-host</p>
       </div>
 
-      <div className="flex flex-col gap-4 w-[30%] text-black">
+      <div className="flex flex-col gap-4 w-full pt-3 sm:w-[30%] text-black border-gray-300 border-t-[1px] sm:border-none">
         
         <p className="font-medium hover:cursor-text">Airbnb</p>
 
-        <p className="hover:underline hover:underline-offset-1 cursor-pointer">2025 Summer Release</p>
+        <p className="hover:underline hover:underline-offset-1 cursor-pointer text-wrap">2025 Summer Release</p>
 
         <p className="hover:underline hover:underline-offset-1 cursor-pointer">Newsroom</p>
 
@@ -53,7 +56,7 @@ function FooterMiddle() {
 
         <p className="hover:underline hover:underline-lloffset-1 cursor-pointer">Gift cards</p>
 
-        <p className="hover:underline hover:underline-lloffset-1 cursor-pointer">Airbnb.org emergency stays</p>
+        <p className="hover:underline hover:underline-lloffset-1 cursor-pointer text-wrap">Airbnb.org emergency stays</p>
       </div>
     </div>
   )

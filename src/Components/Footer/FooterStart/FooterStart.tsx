@@ -22,7 +22,10 @@ function FooterStart() {
       </div>
 
       <div  className="flex gap-1 md:gap-3">
-        <div className="grid grid-cols-3 xs:grid-cols-4 md:grid-cols-6 text-[14px] md:text-lg gap-x-11 gap-y-8 lg:gap-x-32 lg:gap-y-7 m-2 pt-5 cursor-pointer">
+        <div className="grid grid-cols-3 xs:grid-cols-4 md:grid-cols-6 text-nowrap 
+        text-[12px] xs:text-[14px] sm:text-[14px] md:text-[16px] xl:text-[18px] 
+        gap-y-7 gap-x-13 md:gap-x-14 lg:gap-x-16 xl:gap-x-20
+        m-2 pt-5 cursor-pointer">
 
           <div className="leading-[1.5]">
             <p className="text-black font-medium">Cabins</p>
@@ -45,7 +48,7 @@ function FooterStart() {
             <p className="text-gray-500 hover:text-black">United States</p>
           </div>
           <div className="leading-.5">
-            <p className="text-black font-medium">Campers and RVs</p>
+            <p className="text-black font-medium text-wrap">Campers and RVs</p>
             <p className="text-gray-500 hover:text-black">United States</p>
           </div>
 
@@ -70,12 +73,12 @@ function FooterStart() {
             <p className="text-gray-500 hover:text-black">United States</p>
           </div>
           <div className="leading-.5">
-            <p className="text-black font-medium">Holiday Caravans</p>
+            <p className="text-black font-medium text-wrap">Holiday Caravans</p>
             <p className="text-gray-500 hover:text-black">United States</p>
           </div>
 
           <div className="leading-.5">
-            <p className="text-black font-medium">Private Island Rentals</p>
+            <p className="text-black font-medium text-wrap">Private Island Rentals</p>
             <p className="text-gray-500 hover:text-black">United States</p>
           </div>
           <div className="leading-.5">
@@ -94,9 +97,9 @@ function FooterStart() {
             <p className="text-black font-medium">Luxury Cabins</p>
             <p className="text-gray-500 hover:text-black">United Kingdom</p>
           </div>
-          <div className="leading-.5 flex gap-1">
+          <div className="leading-.5 flex items-center h-fit gap-1">
             <p className="text-black font-medium hover:underline hover:underline-offset-1">Show more</p>
-            <img rel="icon" src="assets/arrow-down-icon.png" className="w-3 h-3 mt-1.5"></img>
+            <img rel="icon" src="assets/arrow-down-icon.png" className="w-2 h-2 md:w-3 md:h-3 mt-[3px]"></img>
           </div>
         </div>
       </div>
