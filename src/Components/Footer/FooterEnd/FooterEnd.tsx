@@ -26,7 +26,7 @@ function FooterEnd() {
 
         <div className='text-gray-500 font-normal cursor-pointer hover:text-gray-500 hover:underline hover:underline-offset-1 truncate flex gap-2 items-center'>
           <p className="hidden sm:flex">Your Privacy Choices</p>
-          <img rel="icon" src="assets/icon-footer.png" className="w-6 h-3"></img>
+          <img rel="icon" src="assets/icon-footer.avif" className="w-6 h-3"></img>
         </div>
       </div>
 
@@ -41,15 +41,15 @@ function FooterEnd() {
         </div>
 
         <div className="flex h-8 w-8 justify-center items-center gap-1 rounded-full hover:bg-[#e2e2e2] cursor-pointer">
-          <img rel="icon" src="assets/facebook-icon.png" className="w-4 h-4"></img>
+          <img rel="icon" src="assets/facebook-icon.avif" className="w-4 h-4"></img>
         </div>
 
         <div className="flex h-8 w-8 justify-center items-center gap-1 rounded-full hover:bg-[#e2e2e2] cursor-pointer">
-          <img rel="icon" src="assets/X_icon.png" className="w-4 h-4"></img>
+          <img rel="icon" src="assets/X_icon.avif" className="w-4 h-4"></img>
         </div>
 
         <div className="flex h-8 w-8 justify-center items-center gap-1 rounded-full hover:bg-[#e2e2e2] cursor-pointer">
-            <img rel="icon" src="assets/instagram_icon.png" className="w-4 h-4"></img>
+            <img rel="icon" src="assets/instagram_icon.avif" className="w-4 h-4"></img>
         </div>
       </div>
     </div>

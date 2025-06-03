@@ -96,7 +96,7 @@ function FooterStart() {
           </div>
           <div className="leading-.5 flex gap-1">
             <p className="text-black font-medium hover:underline hover:underline-offset-1">Show more</p>
-            <img rel="icon" src="assets/arrow-down-icon.png" className="w-3 h-3 mt-2"></img>
+            <img rel="icon" src="assets/arrow-down-icon.avif" className="w-3 h-3 mt-2"></img>
           </div>
         </div>
       </div>
