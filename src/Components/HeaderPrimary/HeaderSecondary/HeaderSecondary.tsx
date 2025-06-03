@@ -34,7 +34,7 @@ function HeaderSecondary() {
         </button>
 
         <div className="flex opacity-100 transition-all duration-400 md:opacity-0 md:w-0 bg-[#e7e7e7] w-10 h-10 text-sm text-wrap text-black rounded-3xl items-center justify-center border-none outline-none hover:bg-[#c7c7c7] cursor-pointer">
-          <img rel="icon" src="assets/search-icon-black.avif" className="w-4"></img>
+          <img rel="icon" src="assets/search-icon-black.png" className="w-4"></img>
         </div>
 
         <div className="bg-[#e7e7e7] w-10 h-10 transition-all duration-600 ease-in-out text-sm text-wrap text-black rounded-3xl flex items-center justify-center border-none outline-none hover:bg-[#c7c7c7] cursor-pointer">
@@ -42,7 +42,7 @@ function HeaderSecondary() {
         </div>
 
         <div className="bg-[#e7e7e7] w-10 h-10 transition-all duration-600 ease-in-out text-sm text-wrap text-black rounded-3xl flex items-center justify-center border-none outline-none hover:bg-[#c7c7c7] cursor-pointer">
-          <img rel="icon" src="assets/hamburger.avif" className="w-4"></img>
+          <img rel="icon" src="assets/hamburger.png" className="w-4"></img>
         </div>
       </div>
     </div>

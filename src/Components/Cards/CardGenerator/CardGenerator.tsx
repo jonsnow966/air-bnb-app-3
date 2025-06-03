@@ -37,20 +37,20 @@ const CardGenerator: React.FC<CardGeneratorProps> = ({ title, tagLine }) => {
 
           <div className='flex items-center gap-1'>
             <p className="text-black font-medium text-xl pb-1 cursor-pointer">{tagLine}</p>
-            <img rel="icon" src='assets/right-arrow.avif' className="w-3 h-3"></img>
+            <img rel="icon" src='assets/right-arrow.png' className="w-3 h-3"></img>
           </div>
           
           <div className='hidden xs:flex w-fit h-fit items-center gap-1 absolute right-5 xl:right-20'>
             <div className="flex h-6 w-6 items-center gap-1 rounded-full hover:bg-[#dbdbdb] justify-center
             text-[16px] cursor-pointer opacity-15 border-gray-500 border-[1px] hover:border-none hover:opacity-100">
-              <img rel="icon" src="assets/left-arrow.avif" className="w-[10px] h-[10px]"></img>
+              <img rel="icon" src="assets/left-arrow.png" className="w-[10px] h-[10px]"></img>
 
             </div>
 
             <div className="flex h-6 w-6 items-center gap-1 rounded-full hover:bg-[#dbdbdb] justify-center
             text-[16px] cursor-pointer opacity-15 border-gray-500 border-[1px] hover:border-none hover:opacity-100">
 
-              <img rel="icon" src="assets/right-arrow.avif" className="w-[10px] h-[10px]"></img>
+              <img rel="icon" src="assets/right-arrow.png" className="w-[10px] h-[10px]"></img>
 
             </div>
           </div>
@@ -70,7 +70,7 @@ const CardGenerator: React.FC<CardGeneratorProps> = ({ title, tagLine }) => {
 
                     <span className='mx-1 mb-[8px]'>.</span>
 
-                    <img rel='icon' src='assets/star-16.avif' className='w-2.5 h-2.5'></img>
+                    <img rel='icon' src='assets/star-16.png' className='w-2.5 h-2.5'></img>
 
                     <span className='ml-0.5'>{item.rating}</span>
                   </p>
