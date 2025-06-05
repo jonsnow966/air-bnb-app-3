@@ -106,7 +106,7 @@ const CardGenerator: React.FC<CardGeneratorProps> = ({ title, tagLine }) => {
         <div className='flex items-center gap-1'>
           <p className="text-black text-nowrap font-medium
           text-md xxs:text-xl pb-1 cursor-pointer">{tagLine}</p>
-          <img rel="icon" src='assets/right-arrow.png' className="w-2 h-2 xxs:w-3 xxs:h-3"></img>
+          <img rel="icon" src='assets/right-arrow.jpg' className="w-2 h-2 xxs:w-3 xxs:h-3"></img>
         </div>
         
         <div className='hidden xxs:flex w-fit h-fit items-center gap-1'>
@@ -116,7 +116,7 @@ const CardGenerator: React.FC<CardGeneratorProps> = ({ title, tagLine }) => {
           onClick={scrollLeft}
           ref={leftBtnRef}>
             
-            <img rel="icon" src="assets/left-arrow.png" className="w-[10px] h-[10px]"></img>
+            <img rel="icon" src="assets/left-arrow.jpg" className="w-[10px] h-[10px]"></img>
 
           </button>
 
@@ -126,7 +126,7 @@ const CardGenerator: React.FC<CardGeneratorProps> = ({ title, tagLine }) => {
           onClick={scrollRight}
           ref={rightBtnRef}>
 
-            <img rel="icon" src="assets/right-arrow.png" className="w-[10px] h-[10px]"></img>
+            <img rel="icon" src="assets/right-arrow.jpg" className="w-[10px] h-[10px]"></img>
           </button>
         </div>
       </div>
@@ -148,7 +148,7 @@ const CardGenerator: React.FC<CardGeneratorProps> = ({ title, tagLine }) => {
 
                   <span className='mx-1 mb-[8px]'>.</span>
 
-                  <img rel='icon' src='assets/star-16.png' className='w-2.5 h-auto '></img>
+                  <img rel='icon' src='assets/star-16.jpg' className='w-2.5 h-auto '></img>
 
                   <span className='ml-0.5'>{item.rating}</span>
                 </p>

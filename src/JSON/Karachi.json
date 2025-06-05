@@ -4,48 +4,48 @@
         "cardName" : "Apartment in Karachi",
         "text": "$110 for 2 nights",
         "rating": "5.0",
-        "pic": "k1.png"
+        "pic": "k1.jpg"
     },
     {
         "id" : 2,
         "cardName" : "Apartment in Karachi",
         "text": "$125 for 2 nights",
         "rating": "4.97",
-        "pic": "k2.png"
+        "pic": "k2.jpg"
     },
     {
         "id" : 3,
         "cardName" : "Place to stay in Karachi",
         "text": "$62 for 2 nights",
         "rating": "4.84",
-        "pic": "k3.png"
+        "pic": "k3.jpg"
     },
     {
         "id" : 4,
         "cardName" : "Condo in Karachi",
         "text": "$105 for 2 nights",
         "rating": "5.0",
-        "pic": "k4.png"
+        "pic": "k4.jpg"
     },
     {
         "id" : 5,
         "cardName" : "Apartment in Karachi",
         "text": "$89 for 2 nights",
         "rating": "5.0",
-        "pic": "k5.png"
+        "pic": "k5.jpg"
     },
     {
         "id" : 6,
         "cardName" : "Place to stay in Karachi",
         "text": "$41 for 2 nights",
         "rating": "4.94",
-        "pic": "k6.png"
+        "pic": "k6.jpg"
     },
     {
         "id" : 7,
         "cardName" : "Apartment in Karachi",
         "text": "$50 for 2 nights",
         "rating": "5.0",
-        "pic": "k7.png"
+        "pic": "k7.jpg"
     }
 ]
