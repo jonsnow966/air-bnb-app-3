@@ -9,9 +9,10 @@ function SearchBar() {
   return (
     <div className="opacity-0 md:opacity-100 hidden
     md:flex transition-all duration-500 w-fit bg-slate-50 
-    rounded-full shadow-lg cursor-pointer items-center">
+    rounded-full shadow-sm cursor-pointer items-center">
 
-      <div id="search_bar" className="w-64 py-2 h-full rounded-full bg-slate-50 flex flex-col pl-8 justify-center hover:bg-slate-200">
+      <div id="search_bar" className="w-64 py-2 h-full rounded-full bg-slate-50 flex 
+      flex-col pl-8 justify-center hover:bg-slate-200">
         <p className="text-black text-sm">Where</p>
         <input placeholder="Search Destintions" className="bg-inherit placeholder-gray-400 font-normal rounded-full rounded-l-none w-11/12 text-black pr-2 outline-none"/>
       </div>
