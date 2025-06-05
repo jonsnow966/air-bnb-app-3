@@ -5,7 +5,8 @@ function HeaderSecondary() {
         <img rel="logo" src="assets/airbnb-ar21.svg" className="w-full h-full"/>
       </div>
 
-      <div className="w-0 h-full ml-14 justify-center items-center gap-2 hidden sm:flex md:w-2/4 opacity-0 md:opacity-100 transition-all duration-600 ease-in-out">
+      <div className="w-0 h-full ml-14 justify-center items-center gap-2 hidden sm:flex 
+      md:w-2/4 opacity-0 md:opacity-100 transition-all duration-600 ease-in-out">
         <div className="bg-inherit text-gray-500 h-16 w-28 rounded-none flex items-center justify-center cursor-pointer gap-2 hover:text-black hover:border-b-2 hover:border-black">
           <img rel="icon" src="assets/homes-ico.avif" className="w-10 hover:w-12 transition-all"></img>
             <p>

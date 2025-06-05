@@ -4,7 +4,7 @@ import Footer from './Components/Footer/Footer'
 
 function App() {
   return (
-    <div className="w-full min-h-screen flex flex-col items-center">
+    <div className="w-full min-h-screen flex flex-col items-center overflow-hidden scrollbar-none">
 
       <HeaderPrimary />
 
