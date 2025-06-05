@@ -2,13 +2,13 @@ function HeaderSecondary() {
   return (
     <div className="w-full h-fit flex items-center relative justify-between py-3">
       <div className= "w-32 h-fit xs:w-fit cursor-pointer ">
-        <img rel="logo" src="assets/airbnb-ar21.png" className="w-full h-full"/>
+        <img rel="logo" src="airbnb-ar21.png" className="w-full h-full"/>
       </div>
 
       <div className="w-0 h-full ml-14 justify-center items-center gap-2 hidden sm:flex 
       md:w-2/4 opacity-0 md:opacity-100 transition-all duration-600 ease-in-out">
         <div className="bg-inherit text-gray-500 h-16 w-28 rounded-none flex items-center justify-center cursor-pointer gap-2 hover:text-black hover:border-b-2 hover:border-black">
-          <img rel="icon" src="assets/homes-ico.jpg" className="w-10 hover:w-12 transition-all"></img>
+          <img rel="icon" src="homes-ico.jpg" className="w-10 hover:w-12 transition-all"></img>
             <p>
               Homes
             </p>
