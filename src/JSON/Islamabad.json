@@ -4,62 +4,62 @@
         "cardName" : "Apartment in Islamabad",
         "text": "$66 for 2 nights",
         "rating": "5.0",
-        "pic": "i1.avif"
+        "pic": "i1.png"
     },
     {
         "id" : 2,
         "cardName" : "Condo in Islamabad",
         "text": "$160 for 2 nights",
         "rating": "4.99",
-        "pic": "i2.avif"
+        "pic": "i2.png"
     },
     {
         "id" : 3,
         "cardName" : "Apartment in Islamabad",
         "text": "$164 for 2 nights",
         "rating": "5.0",
-        "pic": "i3.avif"
+        "pic": "i3.png"
     },
     {
         "id" : 4,
         "cardName" : "Apartment in Islamabad",
         "text": "$50 for 2 nights",
         "rating": "4.96",
-        "pic": "i4.avif"
+        "pic": "i4.png"
     },
     {
         "id" : 5,
         "cardName" : "Condo in Islamabad",
         "text": "$71 for 2 nights",
         "rating": "5.0",
-        "pic": "i5.avif"
+        "pic": "i5.png"
     },
     {
         "id" : 6,
         "cardName" : "Villa in Islamabad",
         "text": "$164 for 2 nights",
         "rating": "4.96",
-        "pic": "i6.avif"
+        "pic": "i6.png"
     },
     {
         "id" : 7,
         "cardName" : "Apartment in Islamabad",
         "text": "$137 for 2 nights",
         "rating": "4.94",
-        "pic": "i7.avif"
+        "pic": "i7.png"
     },
     {
         "id" : 8,
         "cardName" : "Apartment in Islamabad",
         "text": "$137 for 2 nights",
         "rating": "4.94",
-        "pic": "i7.avif"
+        "pic": "i7.png"
     },
     {
         "id" : 9,
         "cardName" : "Apartment in Islamabad",
         "text": "$137 for 2 nights",
         "rating": "4.94",
-        "pic": "i7.avif"
+        "pic": "i7.png"
     }
 ]

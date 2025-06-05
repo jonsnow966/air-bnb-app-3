@@ -32,7 +32,7 @@ function FooterEnd() {
 
       <div className="flex items-center gap-[1px] md:gap-1 relative sm:absolute sm:right-0 h-fit w-fit">
         <div className="flex h-8 w-fit p-3 justify-center items-center gap-1 rounded-lg hover:bg-[#e2e2e2] cursor-pointer">
-          <img rel="icon" src="assets/globe.avif" className="w-4 h-4"></img>
+          <img rel="icon" src="assets/globe.png" className="w-4 h-4"></img>
           English (US)
         </div>
 

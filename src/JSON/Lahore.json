@@ -4,48 +4,48 @@
         "cardName" : "Apartment in Lahore",
         "text": "$89 for 2 nights",
         "rating": "5.0",
-        "pic": "1.avif"
+        "pic": "1.png"
     },
     {
         "id" : 2,
         "cardName" : "Condo in Lahore",
         "text": "$63 for 2 nights",
         "rating": "4.92",
-        "pic": "2.avif"
+        "pic": "2.png"
     },
     {
         "id" : 3,
         "cardName" : "Condo in Lahore",
         "text": "$39 for 2 nights",
         "rating": "5.0",
-        "pic": "3.avif"
+        "pic": "3.png"
     },
     {
         "id" : 4,
         "cardName" : "Home in Lahore",
         "text": "$204 for 2 nights",
         "rating": "5.0",
-        "pic": "4.avif"
+        "pic": "4.png"
     },
     {
         "id" : 5,
         "cardName" : "Apartment in Lahore",
         "text": "$57 for 2 nights",
         "rating": "4.94",
-        "pic": "5.avif"
+        "pic": "5.png"
     },
     {
         "id" : 6,
         "cardName" : "Home in Lahore",
         "text": "$110 for 2 nights",
         "rating": "5.0",
-        "pic": "6.avif"
+        "pic": "6.png"
     },
     {
         "id" : 7,
         "cardName" : "Condo in Lahore",
         "text": "$110 for 2 nights",
         "rating": "4.96",
-        "pic": "7.avif"
+        "pic": "7.png"
     }
 ]
