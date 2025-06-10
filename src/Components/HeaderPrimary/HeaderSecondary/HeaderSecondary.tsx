@@ -2,7 +2,7 @@ function HeaderSecondary() {
   return (
     <div className="w-full h-fit flex items-center relative justify-between py-3">
       <div className= "w-32 h-fit xs:w-fit cursor-pointer ">
-        <img rel="icon" src="/assets/airbnb-ar21.png" className="w-full h-full"/>
+        <img rel="icon" src="../../../assets/airbnb-ar21.png" className="w-full h-full"/>
       </div>
 
       <div className="w-0 h-full ml-14 justify-center items-center gap-2 hidden sm:flex 
