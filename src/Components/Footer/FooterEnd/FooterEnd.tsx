@@ -41,7 +41,7 @@ function FooterEnd() {
         </div>
 
         <div className="flex h-8 w-8 justify-center items-center gap-1 rounded-full hover:bg-[#e2e2e2] cursor-pointer">
-          <img rel="icon" src="src/assets/facebook-icon.png" className="w-4 h-4"></img>
+          <img rel="icon" src="assets/facebook-icon.png" className="w-4 h-4"></img>
         </div>
 
         <div className="flex h-8 w-8 justify-center items-center gap-1 rounded-full hover:bg-[#e2e2e2] cursor-pointer">
