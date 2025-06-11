@@ -51,7 +51,7 @@ function SearchBar() {
         </div>
         
         <div className="bg-red-500  w-12 h-12 rounded-full flex items-center justify-center z-10 hover:bg-red-600">     
-          {/* <img rel="icon" src="assets/search-icon.png" className="w-5"></img> */}
+          <img rel="icon" src="assets/search_white.png" className="w-5"></img>
         </div>
       </div>
     </div>
