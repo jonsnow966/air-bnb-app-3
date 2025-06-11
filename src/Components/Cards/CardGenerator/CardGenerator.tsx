@@ -138,8 +138,20 @@ const CardGenerator: React.FC<CardGeneratorProps> = ({ title, tagLine }) => {
       ref={scrollContainerRef}
       >
         {cardData.map(item => (
-              <div key={item.id} className='w-[200px] h-[250px] md:w-[200px] md:h-[250px]
+              <div key={item.id} className='w-[200px] h-[250px] md:w-[200px] md:h-[250px] relative
               cursor-pointer flex shrink-0 flex-col'>
+
+                <button className="flex items-center justify-center bg-[#e9e9e9] w-fit h-fit absolute left-3 top-3
+                text-[12px] text-wrap text-black font-medium rounded-3xl border-none py-[6px] px-[10px] shadow-sm
+                outline-none cursor-pointer">
+                  Guest favourite
+                </button>
+
+                <button className="flex items-center justify-center w-[25px] hover:w-[27px] absolute right-3 top-3
+                cursor-pointer transition-all duration-150 ease-in-out">
+                  <img rel='icon' src='assets/heart.avif' className='w-fit h-fit'></img>
+                </button>
+
                 <img rel='picture' src={`assets/${item.pic}`} className='w-full h-4/5 rounded-3xl object-cover'></img>
                 
                 <p className='text-black font-medium '>{item.cardName}</p>
