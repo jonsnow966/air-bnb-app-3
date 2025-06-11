@@ -8,21 +8,21 @@ function HeaderSecondary() {
       <div className="w-0 h-full ml-14 justify-center items-center gap-2 hidden sm:flex 
       md:w-2/4 opacity-0 md:opacity-100 transition-all duration-600 ease-in-out">
         <div className="bg-inherit text-gray-500 h-16 w-28 rounded-none flex items-center justify-center cursor-pointer gap-2 hover:text-black hover:border-b-2 hover:border-black">
-          {/* <img rel="icon" src="assets/homes-ico.png" className="w-10 hover:w-12 transition-all"></img> */}
+          <img rel="icon" src="assets/home_icon.png" className="w-10 hover:w-12 transition-all"></img>
             <p>
               Homes
             </p>
         </div>
 
         <div className="bg-inherit text-gray-500 h-16 w-32  rounded-none flex items-center justify-center cursor-pointer gap-2 hover:text-black hover:border-b-2 hover:border-black">
-          {/* <img rel="icon" src="assets/experiences-ico.png" className="w-6 hover:w-8 transition-all"></img> */}
+          <img rel="icon" src="assets/experience_icon.png" className="w-6 hover:w-8 transition-all"></img>
           <p>
               Experiences
           </p>
         </div>
         
         <div className="bg-inherit text-gray-500 h-16 w-28  rounded-none flex items-center justify-center cursor-pointer gap-2 hover:text-black hover:border-b-2 hover:border-black">
-          {/* <img rel="icon" src="assets/services-ico.png" className="w-8 hover:w-10 transition-all"></img> */}
+          <img rel="icon" src="assets/services_icon.png" className="w-8 hover:w-10 transition-all"></img>
           <p>
               Services
           </p>
