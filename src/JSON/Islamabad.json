@@ -51,15 +51,8 @@
     {
         "id" : 8,
         "cardName" : "Apartment in Islamabad",
-        "text": "$137 for 2 nights",
-        "rating": "4.94",
-        "pic": "i7.avif"
-    },
-    {
-        "id" : 9,
-        "cardName" : "Apartment in Islamabad",
-        "text": "$137 for 2 nights",
-        "rating": "4.94",
-        "pic": "i7.avif"
+        "text": "$119 for 2 nights",
+        "rating": "5.0",
+        "pic": "i8.avif"
     }
 ]

@@ -47,5 +47,12 @@
         "text": "$50 for 2 nights",
         "rating": "5.0",
         "pic": "k7.avif"
+    },
+    {
+        "id" : 8,
+        "cardName" : "Home in Karachi",
+        "text": "$485 for 2 nights",
+        "rating": "4.93",
+        "pic": "k8.avif"
     }
 ]

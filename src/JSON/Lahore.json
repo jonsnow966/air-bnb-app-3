@@ -47,5 +47,12 @@
         "text": "$110 for 2 nights",
         "rating": "4.96",
         "pic": "7.avif"
+    },
+    {
+        "id" : 8,
+        "cardName" : "Home in Lahore",
+        "text": "$204 for 2 nights",
+        "rating": "5.0",
+        "pic": "8.avif"
     }
 ]

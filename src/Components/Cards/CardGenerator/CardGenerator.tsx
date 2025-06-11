@@ -140,7 +140,7 @@ const CardGenerator: React.FC<CardGeneratorProps> = ({ title, tagLine }) => {
         {cardData.map(item => (
               <div key={item.id} className='w-[200px] h-[250px] md:w-[200px] md:h-[250px]
               cursor-pointer flex shrink-0 flex-col'>
-                {/* <img rel='picture' src={`assets/${item.pic}`} className='w-full h-4/5 rounded-3xl object-cover'></img> */}
+                <img rel='picture' src={`assets/${item.pic}`} className='w-full h-4/5 rounded-3xl object-cover'></img>
                 
                 <p className='text-black font-medium '>{item.cardName}</p>
 
@@ -150,7 +150,7 @@ const CardGenerator: React.FC<CardGeneratorProps> = ({ title, tagLine }) => {
 
                   <span className='mx-1 mb-[8px]'>.</span>
 
-                  {/* <img rel='icon' src='assets/star-16.avif' className='w-2.5 h-auto '></img> */}
+                  <img rel='icon' src='assets/star-16.avif' className='w-2.5 h-auto '></img>
 
                   <span className='ml-0.5'>{item.rating}</span>
                 </p>
