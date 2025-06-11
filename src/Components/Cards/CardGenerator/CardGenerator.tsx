@@ -147,10 +147,12 @@ const CardGenerator: React.FC<CardGeneratorProps> = ({ title, tagLine }) => {
                   Guest favourite
                 </button>
 
-                <button className="flex items-center justify-center w-[25px] hover:w-[27px] absolute right-3 top-3
-                cursor-pointer transition-all duration-150 ease-in-out">
+                <div className='flex items-center justify-center w-[30px] absolute right-3 top-3'>
+                <button className="flex items-center justify-center w-[25px] h-[25px] hover:w-[27px] hover-w-[27px]
+                cursor-pointer transition-all duration-200 ease-in-out">
                   <img rel='icon' src='assets/heart.avif' className='w-fit h-fit'></img>
                 </button>
+                </div>
 
                 <img rel='picture' src={`assets/${item.pic}`} className='w-full h-4/5 rounded-3xl object-cover'></img>
                 
