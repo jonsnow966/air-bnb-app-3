@@ -8,18 +8,19 @@ function SearchBar() {
 
   return (
     <div className="opacity-0 md:opacity-100 hidden
-    md:flex transition-all duration-500 w-fit bg-slate-50 
-    rounded-full shadow-sm cursor-pointer items-center">
+    md:flex transition-all duration-500 w-fit bg-white 
+    rounded-full cursor-pointer items-center equal-shadow">
 
-      <div id="search_bar" className="w-64 py-2 h-full rounded-full bg-slate-50 flex 
-      flex-col pl-8 justify-center hover:bg-slate-200">
+      <div id="search_bar" className="w-64 py-2 h-full rounded-full bg-inherit flex 
+      flex-col pl-8 justify-center hover:bg-[#e9e6e6]">
         <p className="text-black text-sm">Where</p>
         <input placeholder="Search Destintions" className="bg-inherit placeholder-gray-400 font-normal rounded-full rounded-l-none w-11/12 text-black pr-2 outline-none"/>
       </div>
 
       <div id="first" className="w-px h-8 bg-slate-300" style={{ opacity: isHovering ? 0 : 1 }}></div>
       
-      <div id="check_in_btn" className="w-36 py-2 h-full rounded-full bg-slate-50 flex flex-col pl-8 justify-center hover:bg-slate-200"
+      <div id="check_in_btn" className="w-36 py-2 h-full rounded-full bg-inherit flex flex-col pl-8 justify-center
+       hover:bg-[#e9e6e6]"
         onMouseEnter={() => setIsHovering(true)}
         onMouseLeave={() => setIsHovering(false)}
       >
@@ -30,7 +31,7 @@ function SearchBar() {
       <div id='second' className="w-px h-8 bg-slate-300 "
       style={{ opacity: isHovering2 ? 0 : 1 }}></div>
 
-      <div id="check_out_btn" className="w-36 py-2 h-full rounded-full  bg-slate-50 flex flex-col pl-8 justify-center hover:bg-slate-200"
+      <div id="check_out_btn" className="w-36 py-2 h-full rounded-full  bg-inherit flex flex-col pl-8 justify-center hover:bg-[#e9e6e6]"
         onMouseEnter={() => setIsHovering2(true)}
         onMouseLeave={() => setIsHovering2(false)}
       >
@@ -40,7 +41,7 @@ function SearchBar() {
 
       <div id="third" className="w-px h-8 bg-slate-300" style={{ opacity: isHovering3 ? 0 : 1 }}></div>
 
-      <div id="add_guests_btn" className="w-64 h-full rounded-full py-2 bg-slate-50 flex pl-8 gap-20 hover:bg-slate-200"
+      <div id="add_guests_btn" className="w-64 h-full rounded-full py-2 bg-inherit flex pl-8 gap-[86px] hover:bg-[#e9e6e6]"
         onMouseEnter={() => setIsHovering3(true)}
         onMouseLeave={() => setIsHovering3(false)}
       >
