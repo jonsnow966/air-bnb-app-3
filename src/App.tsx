@@ -4,10 +4,8 @@ import Footer from './Components/Footer/Footer'
 
 function App() {
   return (
-    <div className="w-full min-h-screen flex flex-col items-center overflow-hidden scrollbar-none">
-
+    <div className="relative w-full min-h-screen flex flex-col items-center overflow-hidden scrollbar-none">
       <HeaderPrimary />
-
       <main className=" w-screen pt-28 md:pt-52 px-6 pb-4 flex flex-col overflow-hidden items-center justify-center">
 
         <CardGenerator title={'Lahore'} tagLine={'Popular homes in Lahore'}/>
