@@ -100,8 +100,8 @@ const CardGenerator: React.FC<CardGeneratorProps> = ({ title, tagLine }) => {
 
 
   return (
-    <div className="flex flex-col mt-5 w-screen xl:w-[85.5%] relative overflow-hidden pl-5 md:px-10 ">
-      <div className=" h-fit flex items-center mb-2 pl-2 md:pl-6 pr-3 md:pr-1 gap-1 justify-between">
+    <div className="flex flex-col mt-5 w-screen xxl:w-[85.5%] relative overflow-hidden pl-5 pr-5 md:px-10 ">
+      <div className=" h-fit flex items-center mb-2 gap-1 justify-between">
         
         <div className='flex items-center gap-1'>
           <p className="text-black text-nowrap font-medium
@@ -133,7 +133,7 @@ const CardGenerator: React.FC<CardGeneratorProps> = ({ title, tagLine }) => {
         </div>
       </div>
 
-      <div className='h-fit pl-1 flex flex-nowrap gap-4 ml-2 md:ml-5
+      <div className='h-fit flex flex-nowrap gap-4
       overflow-x-auto overflow-y-hidden whitespace-nowrap scrollbar-none'
       ref={scrollContainerRef}
       >

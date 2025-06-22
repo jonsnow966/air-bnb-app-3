@@ -60,7 +60,7 @@ function HeaderSecondary(){
 
 
   return(
-    <div className="w-full h-fit flex items-center relative justify-between py-3 md:px-2 xl:pl-10 xl:pr-1">
+    <div className="w-full h-fit flex items-center relative justify-between py-3">
       <div className= "w-32 h-fit xs:w-fit cursor-pointer">
         <img rel="icon" src='assets/airbnb_logo.avif' className="w-[100px] hidden 3xs:flex"/>
         <img rel="icon" src='assets/airbnb_icon2.avif' className="w-[40px] hidden 4xs:flex 3xs:hidden"/>

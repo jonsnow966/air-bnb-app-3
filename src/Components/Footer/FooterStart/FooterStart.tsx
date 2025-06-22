@@ -1,10 +1,11 @@
 function FooterStart() {
   return (
-    <div className="w-[100%] h-fit relative top-0">
-      <p className="text-black cursor-text text-2xl mb-4 md:m-2  font-medium">Inspiration for future getaways</p> 
+    <div className="w-[100%] h-fit relative top-0 pr-1">
+      <p className="text-black cursor-text text-[20px] 600:text-2xl mb-4 md:my-2 font-medium">Inspiration for future getaways</p> 
 
-      <div className="flex gap-2 text-[12px] sm:text-lg md:text-xl md:gap-5 border-gray-300 border-b-[1px]">
-        <div className="p-2 text-gray-500 cursor-pointer font-normal hover:text-black hover:border-black hover:border-b-2">
+      <div className="flex gap-2 text-2xl xs:text-lg md:text-xl md:gap-5 border-gray-300 border-b-[1px]
+      overflow-x-scroll scrollbar-none flex-nowrap text-nowrap 600:overflow-hidden">
+        <div className="p-2 pl-0 text-gray-500 cursor-pointer font-normal hover:text-black hover:border-black hover:border-b-2">
           Unique stays
         </div>
 
@@ -22,10 +23,10 @@ function FooterStart() {
       </div>
 
       <div  className="flex gap-1 md:gap-3">
-        <div className="grid grid-cols-3 xs:grid-cols-4 md:grid-cols-6 text-nowrap 
-        text-[12px] xs:text-[14px] sm:text-[14px] md:text-[16px] xl:text-[18px] 
+        <div className="grid grid-cols-2 600:grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 text-nowrap 
+        text-[20px] xl:text-[18px] 
         gap-y-7 gap-x-13 md:gap-x-14 lg:gap-x-16 xl:gap-x-20
-        m-2 pt-5 cursor-pointer">
+        my-2 pt-5 cursor-pointer">
 
           <div className="leading-[1.5]">
             <p className="text-black font-medium">Cabins</p>
@@ -60,36 +61,36 @@ function FooterStart() {
             <p className="text-black font-medium">Yurt Rentals</p>
             <p className="text-gray-500 hover:text-black">United States</p>
           </div>
-          <div className="leading-.5">
+          <div className="hidden 600:flex 600:flex-col leading-.5">
             <p className="text-black font-medium">Yurt Rentals</p>
             <p className="text-gray-500 hover:text-black">United Kingdom</p>
           </div>
-          <div className="leading-.5">
+          <div className="hidden 600:flex 600:flex-col leading-.5">
             <p className="text-black font-medium">Castle Rentals</p>
             <p className="text-gray-500 hover:text-black">United States</p>
           </div>
-          <div className="leading-.5">
+          <div className="hidden 600:flex 600:flex-col leading-.5">
             <p className="text-black font-medium">Houseboats</p>
             <p className="text-gray-500 hover:text-black">United States</p>
           </div>
-          <div className="leading-.5">
+          <div className="hidden 600:flex 600:flex-col leading-.5">
             <p className="text-black font-medium text-wrap">Holiday Caravans</p>
             <p className="text-gray-500 hover:text-black">United States</p>
           </div>
 
-          <div className="leading-.5">
+          <div className="hidden 600:flex 600:flex-col leading-.5">
             <p className="text-black font-medium text-wrap">Private Island Rentals</p>
             <p className="text-gray-500 hover:text-black">United States</p>
           </div>
-          <div className="leading-.5">
+          <div className="hidden 600:flex 600:flex-col leading-.5">
             <p className="text-black font-medium">Farm Houses</p>
             <p className="text-gray-500 hover:text-black">United States</p>
           </div>
-          <div className="leading-.5">
+          <div className="hidden 600:flex 600:flex-col leading-.5">
             <p className="text-black font-medium">Farm Cottages</p>
             <p className="text-gray-500 hover:text-black">United Kingdom</p>
           </div>
-          <div className="leading-.5">
+          <div className="hidden 600:flex 600:flex-col leading-.5">
             <p className="text-black font-medium">Cabin Rentals</p>
             <p className="text-gray-500 hover:text-black">Australia</p>
           </div>

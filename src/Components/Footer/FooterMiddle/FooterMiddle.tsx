@@ -1,7 +1,7 @@
 function FooterMiddle() {
   return (
     <div className="w-full h-fit relative text-nowrap text-[18px] sm:text-[16px]
-    top-0 pl-2 pt-10 pb-10 sm:pt-15 sm:pb-20 
+    top-0 pt-10 pb-10 sm:pt-15 sm:pb-20 
     flex flex-col sm:flex-row gap-[20px] ">
       
       <div className="flex flex-col gap-4 w-full pt-3 sm:w-[30%] text-black border-gray-300 border-t-[1px] sm:border-none">
