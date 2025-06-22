@@ -4,7 +4,7 @@ function FooterStart() {
       <p className="text-black cursor-text text-[20px] 600:text-2xl mb-4 md:my-2 font-medium">Inspiration for future getaways</p> 
 
       <div className="flex gap-2 text-2xl xs:text-lg md:text-xl md:gap-5 border-gray-300 border-b-[1px]
-      overflow-x-scroll scrollbar-none flex-nowrap text-nowrap 600:overflow-hidden">
+      overflow-x-scroll scrollbar-none flex-nowrap text-nowrap sm:overflow-hidden">
         <div className="p-2 pl-0 text-gray-500 cursor-pointer font-normal hover:text-black hover:border-black hover:border-b-2">
           Unique stays
         </div>
