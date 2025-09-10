@@ -101,7 +101,7 @@ const CardGenerator: React.FC<CardGeneratorProps> = ({ title, tagLine }) => {
 
 
   return (
-    <div className="flex flex-col mt-5 w-screen 2xl:w-[90vw] relative overflow-hidden pl-5 pr-5 md:px-10">
+    <div className="flex flex-col mt-5 w-screen xxl:w-[85.5%] relative overflow-hidden pl-5 pr-5 md:px-10 ">
       <div className=" h-fit flex items-center mb-2 gap-1 justify-between">
         
         <div className='flex items-center gap-1'>
@@ -110,7 +110,7 @@ const CardGenerator: React.FC<CardGeneratorProps> = ({ title, tagLine }) => {
           <img rel="icon" src='assets/right-arrow.avif' className="w-2 h-2 xxs:w-3 xxs:h-3"></img>
         </div>
         
-        <div className='hidden xs:flex w-fit h-fit items-center gap-1'>
+        <div className='hidden xxs:flex w-fit h-fit items-center gap-1'>
           <button className="flex h-6 w-6 items-center gap-1 rounded-full hover:bg-[#dbdbdb] justify-center
           text-[16px] cursor-pointer opacity-100 border-gray-500 border-[1px] hover:border-none hover:opacity-100
           disabled:opacity-15 disabled:cursor-not-allowed transition-all duration-300"
@@ -140,19 +140,7 @@ const CardGenerator: React.FC<CardGeneratorProps> = ({ title, tagLine }) => {
       >
         {cardData.map(item => (
           <div key={item.id} className='flex-none snap-start
-          w-[83vw] h-[350px] 
-          xs:w-[88vw] xs:h-[400px]
-          450:w-[92vw] 450:h-[500px]
-          sm:w-[46vw] sm:h-[450px]
-          md:w-[28vw] md:h-[300px]
-          800:w-[28.5vw] 
-          900:w-[21.5vw] 900:h-[250px]
-          lg:w-[22vw] lg:h-[300px]
-          1200:w-[22.5vw] 1200:h-[300px]
-          xl:w-[17.8vw] xl:h-[280px]
-          1450:w-[18vw]
-          2xl:w-[20.5vw] 2xl:h-[350px]
-          
+          w-[200px] h-[250px] 
           
           relative cursor-pointer'
           
