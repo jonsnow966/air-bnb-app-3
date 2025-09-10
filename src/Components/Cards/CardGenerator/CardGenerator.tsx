@@ -2,7 +2,7 @@ import lhrData from '../../../JSON/Lahore.json'
 import isbData from '../../../JSON/Islamabad.json'
 import khiData from '../../../JSON/Karachi.json'
 import { useRef, useEffect} from 'react'
- 
+import { useNavigate } from 'react-router-dom';
 
 interface Property {
   id: number;
@@ -18,7 +18,8 @@ interface CardGeneratorProps{
 }
 
 const CardGenerator: React.FC<CardGeneratorProps> = ({ title, tagLine }) => {
-  let cardData;
+  const navigate = useNavigate();
+  let cardData:Property[];
 
   if(title == 'Lahore')
     cardData = lhrData as Property[];
@@ -138,37 +139,39 @@ const CardGenerator: React.FC<CardGeneratorProps> = ({ title, tagLine }) => {
       ref={scrollContainerRef}
       >
         {cardData.map(item => (
-              <div key={item.id} className='w-[200px] h-[250px] md:w-[200px] md:h-[250px] relative
-              cursor-pointer flex shrink-0 flex-col'>
+          <div key={item.id} className='w-[200px] h-[250px] md:w-[200px] md:h-[250px] relative
+          cursor-pointer flex shrink-0 flex-col'
+          onClick={() => navigate(`/cardDetails/${title}/${item.id}`)}
+          >
 
-                <button className="flex items-center justify-center bg-[#e9e9e9] w-fit h-fit absolute left-3 top-3
-                text-[12px] text-wrap text-black font-medium rounded-3xl border-none py-[6px] px-[10px] shadow-sm
-                outline-none cursor-pointer">
-                  Guest favourite
-                </button>
+            <button className="flex items-center justify-center bg-[#e9e9e9] w-fit h-fit absolute left-3 top-3
+            text-[12px] text-wrap text-black font-medium rounded-3xl border-none py-[6px] px-[10px] shadow-sm
+            outline-none cursor-pointer">
+              Guest favourite
+            </button>
 
-                <div className='flex items-center justify-center w-[30px] absolute right-3 top-3'>
-                <button className="flex items-center justify-center w-[25px] h-[25px] hover:w-[27px] hover-w-[27px]
-                cursor-pointer transition-all duration-200 ease-in-out">
-                  <img rel='icon' src='assets/heart.avif' className='w-fit h-fit'></img>
-                </button>
-                </div>
+            <div className='flex items-center justify-center w-[30px] absolute right-3 top-3'>
+            <button className="flex items-center justify-center w-[25px] h-[25px] hover:w-[27px] hover-w-[27px]
+            cursor-pointer transition-all duration-200 ease-in-out">
+              <img rel='icon' src='assets/heart.avif' className='w-fit h-fit'></img>
+            </button>
+            </div>
 
-                <img rel='picture' src={`assets/${item.pic}`} className='w-full h-4/5 rounded-3xl object-cover'></img>
-                
-                <p className='text-black font-medium '>{item.cardName}</p>
+            <img rel='picture' src={`assets/${item.pic}`} className='w-full h-4/5 rounded-3xl object-cover'></img>
+            
+            <p className='text-black font-medium '>{item.cardName}</p>
 
-                <p className='flex items-center text-xs text-gray-500'>
-                  
-                  <span className='mr-0.5 mb-0.5 cursor-text'>{item.text}</span>
+            <p className='flex items-center text-xs text-gray-500'>
+              
+              <span className='mr-0.5 mb-0.5 cursor-text'>{item.text}</span>
 
-                  <span className='mx-1 mb-[8px]'>.</span>
+              <span className='mx-1 mb-[8px]'>.</span>
 
-                  <img rel='icon' src='assets/star-16.avif' className='w-2.5 h-auto '></img>
+              <img rel='icon' src='assets/star-16.avif' className='w-2.5 h-auto '></img>
 
-                  <span className='ml-0.5'>{item.rating}</span>
-                </p>
-              </div>
+              <span className='ml-0.5'>{item.rating}</span>
+            </p>
+          </div>
             )
           )
         }
